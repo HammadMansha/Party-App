@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1022874036163",
+    "project_id": "ppp-event-tracker",
+    "storage_bucket": "ppp-event-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022874036163:android:f44e8d5924c04de9d4bf76",
+        "android_client_info": {
+          "package_name": "com.example.ppp_event_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022874036163-gipv77v15nu0qps0k7gok5p8efoe0k5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ppp_event_tracker",
+            "certificate_hash": "3157c15b4a1764762c38fbd79ec49fbbf272386f"
+          }
+        },
+        {
+          "client_id": "1022874036163-hgf1th27arrtkoe4p4h4j3b5b91o7aem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs1z4PbCYvNuHP9d8mrP_bnbLlXz3pU4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022874036163-hgf1th27arrtkoe4p4h4j3b5b91o7aem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
