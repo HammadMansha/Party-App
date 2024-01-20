@@ -185,7 +185,6 @@ class DashboardScreen extends StatelessWidget {
       const SurveyScreen(),
       const ReportsScreen(),
        ProfileScreen(),
-      SettingScreen(),
     ];
     return IndexedStack(
       index: _.currentIndex,

@@ -5,7 +5,6 @@ import 'package:get_storage/get_storage.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
  // await Firebase.initializeApp();
-  await Locales.init(['en', 'urdu']);
   await initServices();
   runApp(const MyApp());
 }
@@ -24,21 +23,18 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return LocaleBuilder(builder: (locale) {
       return GetMaterialApp(
-        localizationsDelegates: Locales.delegates,
-        locale: locale,
+    
         //title: AppStrings.appName,
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
         defaultTransition: Get.defaultTransition,
-        supportedLocales: Locales.supportedLocales,
         initialRoute: AppPages.initial,
         getPages: AppPages.routes,
         //home: MyHomePage(),
       );
-    });
+
   }
 }

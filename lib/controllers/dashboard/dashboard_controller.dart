@@ -31,7 +31,7 @@ class DashboardScreenController extends GetxController with KeysVariables,Initia
 
     statuses.forEach((permission, status) {
       if (status.isDenied) {
-        openSettings();
+        //openSettings();
       }
     });
     // Process the permission statuses

@@ -23,6 +23,7 @@ class LoginScreenController extends GetxController
         body: {
           'email': email.text,
           'password': password.text,
+          'forced':'App',
         },
       );
       var data = json.decode(res.body);

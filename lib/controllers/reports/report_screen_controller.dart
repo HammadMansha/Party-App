@@ -2,7 +2,6 @@ import 'dart:io';
 
 import 'package:Pam_App/utils/libraries/app_libraries.dart';
 import 'package:file_picker/file_picker.dart';
-import 'package:multi_image_picker/multi_image_picker.dart';
 
 class ReportScreenController extends GetxController {
   TextEditingController reportTitle = TextEditingController();

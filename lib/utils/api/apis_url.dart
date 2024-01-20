@@ -1,6 +1,6 @@
 class ApiData {
   //-----------------------Base url--------
-  static const String baseUrl = "http://110.93.212.136:3000";
+  static const String baseUrl = "https://backend.katalyst.systems";
   //---------------------All API's call end points------------
   static const String authApi = "";
   //--------------------Verify invitation OTP--------------

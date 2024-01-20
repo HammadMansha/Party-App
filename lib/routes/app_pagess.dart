@@ -97,14 +97,6 @@ class AppPages {
       page: () => ProfileScreen(),
     ),
     //----------------------Setting Screen route------------------
-    GetPage(
-      name: Routes.settingScreen,
-      page: () => SettingScreen(),
-    ),
-    //----------------------Select language route------------------
-    GetPage(
-      name: Routes.languageScreen,
-      page: () => const SelectLanguageScreen(),
-    ),
+   
   ];
 }
